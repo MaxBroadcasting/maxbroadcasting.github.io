@@ -1,0 +1,36 @@
+body.dark-theme {
+    background-color: #121212;
+    
+}
+
+body.dark-theme .square {
+    background-color:#686868;
+    color: rgb(219, 219, 219);
+}
+
+body.dark-theme main{
+    background-color: #1f1f1f;
+    color: rgb(219, 219, 219);
+}
+
+body.dark-theme .squarecontainer, .emotecontainer{
+    border-bottom: #cecece solid 1px;
+    border-top: #cecece solid 1px;
+}
+
+.square:hover.dark-theme {
+    box-shadow: 8px 8px 8px 8px #0f0f0f ;
+}
+
+body.dark-theme th {
+    background-color: #686868;
+}
+
+body.dark-theme table, td, th {
+    border:rgb(223, 223, 223) solid 2px;
+}
+
+body.dark-theme td:nth-of-type(1){
+    background-color: #686868;
+    font-weight: bold;
+}

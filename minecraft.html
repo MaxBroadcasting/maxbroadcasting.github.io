@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A website about the TF2 Twitch Streamer MaxBroadcasting">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dark-theme.css">
+	<title>MaxBroadcasting Website</title>
+</head>
+
+<body class="dark-theme || light-theme" onload="addDarkMode()">
+	<div id="banner-container">
+
+	</div>
+	<nav id="navbar">
+
+	</nav>
+	<main class="dark-theme || light-theme">
+
+		<h1>Pinboard</h1>
+		<div class="spacecontainer">
+			<table id="pinboardTable">
+
+			</table>
+		</div>
+
+		<h1>Add a Pin</h1>
+		<div class="spacecontainer">
+			<form>
+				<div class="formInput">
+					<label for="name">Minecraft Username</label>
+					<input type="text" id="name" name="name">
+				</div>
+
+				<div class="formInput">
+					<label for="wants">What you want</label>
+					<input type="text" id="wants" name="wants">
+				</div>
+
+				<div class="formInput">
+					<label for="inExchange">What they get</label>
+					<input type="text" id="inExchange" name="inExchange">
+				</div>
+
+
+			</form>
+			
+		</div>
+
+	</main>
+	<script src="javascript.js"></script>
+	<script defer src="insertElements.js"></script>
+	<script defer src="pinboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+body {
+    margin: 0;   
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+#banner-container {
+    display: flex;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.box {
+    width: 0vw;
+    background-color: #ee7e1a;  
+
+}
+
+.navlist {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(71, 71, 71);
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+input[type=Submit] {
+    height: 2rem;
+    width: 4rem;
+    float: inline-end;
+}
+
+form {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navelement {
+    padding: 20px;
+}
+
+.navelement:hover{
+    background-color: rgb(109, 109, 109);
+    border: #ee7e1a 3px solid;
+    padding: 17px;
+    cursor: pointer;
+}
+
+nav {
+    margin: 0;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    padding-top: 2.5vh;
+    min-height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(19, 19, 19); 
+}
+
+
+p {
+    margin: 0;
+}
+
+.squarecontainer, .spacecontainer {
+    border-bottom: #383838 solid 1px;
+    border-top: #383838 solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 6rem;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.spacecontainer {
+    justify-content: space-around;
+}
+
+.squarecontainer img {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.squarecontainer p {
+    flex-basis: 100%;
+    margin-left: 0vw;
+}
+
+
+
+.spacecontainer a img {
+    height: 5rem;
+    width: auto;
+    margin: auto;
+}
+
+.spacecontainer a img, .squarecontainer .square{
+    top: 0;
+    transition: top ease 0.5s;
+    position: relative;
+}
+
+.spacecontainer a img:hover, .squarecontainer .square:hover {
+    top: -10px;
+}
+
+
+.square {
+    border-radius: 25px;
+    background:rgb(240, 240, 240);
+    padding: 20px;
+    transition: 0.3s;
+    border: #ee7e1a 4px solid;
+    box-shadow: 8px 8px 4px 4px #0f0f0f ;
+    width: 150px;
+    min-height: 150px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.square h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.square p {
+    margin-bottom: 20px;
+}
+
+.square button {
+    background-color: #ee7e1a;
+    border-radius: 12px;
+    min-width: 150px;
+    min-height: 75px;
+    outline-style: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:1.5rem;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style:solid;
+    margin: 0px;
+    transition: 0.5s;
+    margin-top: auto;
+}
+
+.square button a {
+    padding: 2rem;
+}
+
+.square button:hover {
+    border-color: black;
+    cursor: pointer;
+    
+}
+
+table {
+    border-radius: 5px; 
+}
+
+table, td, th, td {
+    border:rgb(26, 26, 26) solid 2px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width:800px)
+{
+    main {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        border-left: #ee7e1a solid 10px;
+        border-Right: #ee7e1a solid 10px;
+        
+    }
+
+    body {
+        background-color: rgb(248, 248, 248);
+    }
+    
+    .box {
+        width: 10vw;
+    }
+
+    .banner {
+        width: 80vw;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:1600px)
+{
+    main {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    
+    .box {
+        width: 40%;
+    }
+
+    .banner {
+        width: 60vw;
+    }
+
+}
