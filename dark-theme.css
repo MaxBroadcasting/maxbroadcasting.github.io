@@ -29,8 +29,3 @@ body.dark-theme th {
 body.dark-theme table, td, th {
     border:rgb(223, 223, 223) solid 2px;
 }
-
-body.dark-theme td:nth-of-type(1){
-    background-color: #686868;
-    font-weight: bold;
-}

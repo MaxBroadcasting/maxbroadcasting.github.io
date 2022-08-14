@@ -23,12 +23,23 @@
 		<h1>Pinboard</h1>
 		<div class="spacecontainer">
 			<table id="pinboardTable">
+				<tr>
+					<td>
+						Name
+					</td>
+					<td>
+						What they want
+					</td>
+					<td>
+						What you get
+					</td>
+				</tr>
 
 			</table>
 		</div>
 
 		<h1>Add a Pin</h1>
-		<div class="spacecontainer">
+		<div class="blockContainer">
 			<form>
 				<div class="formInput">
 					<label for="name">Minecraft Username</label>
@@ -44,12 +55,10 @@
 					<label for="inExchange">What they get</label>
 					<input type="text" id="inExchange" name="inExchange">
 				</div>
-
-
 			</form>
-			
+			<button id="addPinBtn">Pin it!</button>			
 		</div>
-
+		
 	</main>
 	<script src="javascript.js"></script>
 	<script defer src="insertElements.js"></script>

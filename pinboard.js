@@ -13,7 +13,6 @@ xhr.send();
 
 function createTable(pinbaord) {
 
-    var body = document.getElementsByTagName("body")[0];
 
     // create elements <table> and a <tbody>
     var tbl = document.getElementById("pinboardTable");
@@ -23,8 +22,12 @@ function createTable(pinbaord) {
         console.log(pinbaord[i]);
 
         const tr = tbl.insertRow();
-        const td = tr.insertCell();
-
+        const name = tr.insertCell();
+        name.innerHTML = pinbaord[i].name;
+        const wants = tr.insertCell();
+        wants.innerHTML = pinbaord[i].wants;
+        const buysFor = tr.insertCell();
+        buysFor.innerHTML = pinbaord[i].buysFor;
     }
 
 }
